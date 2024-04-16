@@ -1,0 +1,50 @@
+"""
+숫자를 input으로 받으면 문자열로 취급 가능(나중에 int 붙여서 변환 가능)
+
+if A > 0 : print(1 if B>0 else 4) (이중조건부 가능)
+
+print(A[::2]) (2개간격으로 +방향출력)
+print(A[::-1]) (역순출력)
+
+print("3421"[x>0::2][y>0]) (조건이 True=1, False=0 값으로 치환됨)
+
+print(*A) (리스트 A의 각 요소들을 하나씩 출력)
+
+*_,a,b,c=sorted(input()) (내림차순)
+
+a = [101, 102, 'b', 'l', 'o', 103, 104, 105]
+print(f'a[0] : {a[0]}') (f'' 안에서 {}의 값을 찾아 대입하게 함)
+
+for i in range(int(input())) :
+A, B = map(int, input().split())
+print(f'Case #{i+1}: {A+B}') (A, B처럼 리스트가 아니어도 상관 없음)
+
+while True : (계속반복)
+break랑 continue 써주기
+
+try:
+except: (while 조건문)
+
+L.count(V) (L 안에서 V 개수 세주기)
+min(L), max(L)
+
+A = [int(input()) for _ in range(9)] (리스트 반복적으로 추가해주기)
+
+L.index(V+1) (L 안에서 V의 순서 세주기)
+
+L = [0] * (N+1) (리스트 요소 반복적으로 만들어주기)
+
+L=list(map(int,range(1,31))) (map으로 범위 내 숫자들 리스트로 전부 만들기)
+
+set(L) (순서 상관 없이 리스트의 중복값 없애버리기)
+
+A[-1] (맨 마지막 요소)
+
+아스키코드
+ord(문자) >> 숫자화
+chr(숫자) >> 문자화
+
+for i in A : (i가 숫자범위 말고도 문자열의 값을 차례대로 가질 수도 있음)
+
+end = '' (줄바꿈없애기)
+"""
